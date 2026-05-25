@@ -1,4 +1,4 @@
----
+
 
 # 🧠 Self-Healing AI Agents
 
@@ -54,7 +54,7 @@ self_healing_ai/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/anuguhruthikreddy03/self_healing_ai_agent.git
+https://github.com/pavankumar2126/AI-AGENTS.git
 ```
 
 ---
