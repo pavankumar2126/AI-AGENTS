@@ -4,8 +4,6 @@
 
 > An AI-powered autonomous debugging and recovery system capable of analyzing errors, identifying root causes, generating fixes, validating solutions, and executing recovery actions automatically using Large Language Models (LLMs).
 
----
-
 # 🚀 Features
 
 - 🧠 AI-based error analysis
