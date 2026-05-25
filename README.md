@@ -1,54 +1,138 @@
- Self-Healing AI Agents
-An AI-powered autonomous debugging and recovery system that can analyze errors, identify root causes, generate fixes, validate solutions, and execute recovery actions automatically using Large Language Models (LLMs).
+---
 
-🚀 Features
-AI-based error analysis
-Root cause detection
-Automatic fix generation
-Validation before execution
-Multi-agent workflow system
-FastAPI integration
-Database logging
-Modular architecture
-🛠️ Tech Stack
-Python
-FastAPI
-Gemini API
-SQLite
-LangGraph-style Workflow
-langchain
-Streamlit
-📂 Project Structure
+# 🧠 Self-Healing AI Agents
+
+> An AI-powered autonomous debugging and recovery system capable of analyzing errors, identifying root causes, generating fixes, validating solutions, and executing recovery actions automatically using Large Language Models (LLMs).
+
+---
+
+# 🚀 Features
+
+- 🧠 AI-based error analysis
+- 🔍 Root cause detection
+- 🛠️ Automatic fix generation
+- ✅ Validation before execution
+- 🔄 Multi-agent workflow system
+- 🚀 FastAPI API integration
+- 🗄️ Database logging
+- 🧩 Modular architecture
+- 📊 Streamlit dashboard support
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Core development |
+| FastAPI | REST API backend |
+| Gemini API | LLM integration |
+| SQLite | Database logging |
+| LangChain | AI orchestration |
+| Streamlit | Frontend dashboard |
+| LangGraph-style Workflow | Multi-agent execution |
+
+---
+
+# 📂 Project Structure
+
+```bash
 self_healing_ai/
 │
-├── agents/
-├── api/
-├── database/
-├── workflow/
-├── frontend/
-├── tests/
+├── agents/          # AI agent modules
+├── api/             # FastAPI routes
+├── database/        # Database models & logging
+├── workflow/        # Agent workflow orchestration
+├── frontend/        # Streamlit frontend
+├── tests/           # Test cases
 ├── requirements.txt
 └── README.md
-⚙️ Installation
-Clone Repository
+```
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/anuguhruthikreddy03/self_healing_ai_agent.git
-Move to Project Folder
+```
+
+---
+
+## 2️⃣ Move to Project Directory
+
+```bash
 cd self_healing_ai_agent
-Install Dependencies
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-▶️ Run Project
+```
+
+---
+
+# ▶️ Running the Project
+
+## Run Complete Application
+
+```bash
 python run.py
-or
+```
 
+---
+
+## Run Backend Server Only
+
+```bash
 uvicorn api.main:app --reload
+```
 
-run fontend/app.py
-💡 Applications
-Automated debugging
-AI operations
-Smart monitoring systems
-DevOps automation
-Autonomous recovery systems
-👨‍💻 Author
-PAVAN KUMAR ch
-AI/ML Developer | Python Developer
+---
+
+## Run Frontend Dashboard
+
+```bash
+streamlit run frontend/app.py
+```
+
+---
+
+# 💡 Applications
+
+- Automated debugging systems
+- AI Operations (AIOps)
+- Smart monitoring platforms
+- DevOps automation
+- Autonomous recovery systems
+- Intelligent incident management
+
+---
+
+# 🧠 Workflow Overview
+
+```text
+Error Detection
+      ↓
+Root Cause Analysis
+      ↓
+Fix Generation
+      ↓
+Validation
+      ↓
+Recovery Execution
+```
+
+---
+
+# 👨‍💻 Author
+
+## Pavan Kumar CH
+
+AI/ML Developer • Python Developer • Generative AI Developer
+
